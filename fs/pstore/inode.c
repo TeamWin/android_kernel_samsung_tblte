@@ -332,7 +332,7 @@ int pstore_mkfile(enum pstore_type_id type, char *psname, u64 id, int count,
 		break;
 	default:
 		snprintf(name, PSTORE_NAMELEN, "type%d-%s-%lld",
-			type, psname, id)
+			type, psname, id);
 		break;
 	}
 
