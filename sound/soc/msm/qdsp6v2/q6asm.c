@@ -3335,10 +3335,6 @@ fail_cmd:
 	return rc;
 }
 
- static int __q6asm_ds1_set_endp_params(struct audio_client *ac, int param_id,
- 				int param_value, int stream_id)
- {
-
 static int __q6asm_ds1_set_endp_params(struct audio_client *ac, int param_id,
 				int param_value, int stream_id)
 {
